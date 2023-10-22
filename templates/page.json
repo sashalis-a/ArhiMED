@@ -10,6 +10,7 @@
     },
     "8be5754e-f311-4b0c-8239-cc669b61146b": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1a5d0b38f87dcc04a67df5770106329d.jpg",
         "image_overlay_opacity": 0,
@@ -22,6 +23,14 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "353cfa7b-273c-4633-ade7-09b8a6595f6d": {
+      "type": "section-banner-call-to-action",
+      "settings": {
+        "title": "Lorem Ipsum is simply dummy text of",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "textBtn": "Explore ARHIMED Products"
       }
     },
     "f059aa2c-bd54-4a24-98cc-21ce68241f59": {
@@ -193,40 +202,24 @@
     },
     "5ad7ce13-fc83-4633-be7e-1a4f5d9e8791": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<p><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0762\/3373\/6540\/files\/2cd3851d32fbfc68a5833d37b114a26e.jpg?v=1697141475\" width=\"900\" height=\"508\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\" \/><\/p>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "fd2a1eef-8278-47a9-a385-8d166a1f77d1": {
-      "type": "section-banner-call-to-buy",
-      "blocks": {
-        "9bd0183c-be14-460f-b2cd-1a711a85a041": {
-          "type": "banner",
-          "settings": {
-            "title": "Hello!",
-            "text": "It is a ..."
-          }
-        }
-      },
-      "block_order": [
-        "9bd0183c-be14-460f-b2cd-1a711a85a041"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "main",
     "8be5754e-f311-4b0c-8239-cc669b61146b",
+    "353cfa7b-273c-4633-ade7-09b8a6595f6d",
     "f059aa2c-bd54-4a24-98cc-21ce68241f59",
     "caf7d9f6-4805-4e21-8c06-ab9132347331",
     "ace51062-01f6-46e8-9960-406fecf97088",
     "14cda0c9-84c3-4025-95e1-8f33aecf5fc2",
     "848dffd9-1125-41c2-8c41-ad954234ddfd",
-    "5ad7ce13-fc83-4633-be7e-1a4f5d9e8791",
-    "fd2a1eef-8278-47a9-a385-8d166a1f77d1"
+    "5ad7ce13-fc83-4633-be7e-1a4f5d9e8791"
   ]
 }
