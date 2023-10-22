@@ -1,0 +1,38 @@
+<div class="banner">
+  <div class="banner_title">{{ section.settings.title }}</div>
+  <div class="banner_text">{{ section.settings.text }}</div>
+</div>
+
+{% schema %}
+{
+  "name": "Banner call to buy",
+  "tag": "section",
+  "class": "section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "banner",
+      "name": "Main banner",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Hello!"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "It is a ..."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner call to buy"
+    }
+  ]
+}
+{% endschema %}
