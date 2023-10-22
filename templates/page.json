@@ -199,6 +199,23 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "fd2a1eef-8278-47a9-a385-8d166a1f77d1": {
+      "type": "section-banner-call-to-buy",
+      "blocks": {
+        "9bd0183c-be14-460f-b2cd-1a711a85a041": {
+          "type": "banner",
+          "settings": {
+            "title": "Hello!",
+            "text": "It is a ..."
+          }
+        }
+      },
+      "block_order": [
+        "9bd0183c-be14-460f-b2cd-1a711a85a041"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -209,6 +226,7 @@
     "ace51062-01f6-46e8-9960-406fecf97088",
     "14cda0c9-84c3-4025-95e1-8f33aecf5fc2",
     "848dffd9-1125-41c2-8c41-ad954234ddfd",
-    "5ad7ce13-fc83-4633-be7e-1a4f5d9e8791"
+    "5ad7ce13-fc83-4633-be7e-1a4f5d9e8791",
+    "fd2a1eef-8278-47a9-a385-8d166a1f77d1"
   ]
 }

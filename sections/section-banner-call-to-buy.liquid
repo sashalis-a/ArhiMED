@@ -1,6 +1,10 @@
 <div class="banner">
-  <div class="banner_title">{{ section.settings.title }}</div>
-  <div class="banner_text">{{ section.settings.text }}</div>
+  <div class="page-width banner_container">
+    <img class="banner_img" src="//61c8c4.myshopify.com/cdn/shop/files/6.png?v=1695305139&width=600" alt="logo">
+    <h2 class="banner_title"><strong>{{ section.settings.title }}</strong></h2>
+    <p class="banner_text">{{ section.settings.text }}</p>
+    <a class="banner_button-redirect-to-products button button--secondary" href="/collections/all"><p>Explore ARHIMED Products</p></a>
+  </div>
 </div>
 
 {% schema %}
@@ -8,27 +12,21 @@
   "name": "Banner call to buy",
   "tag": "section",
   "class": "section",
-  "settings": [],
-  "blocks": [
+  "settings": [
     {
-      "type": "banner",
-      "name": "Main banner",
-      "settings": [
-        {
           "type": "text",
           "id": "title",
           "label": "Heading",
-          "default": "Hello!"
-        },
-        {
+          "default": "Lorem Ipsum is simply dummy text of"
+    },
+    {
           "type": "text",
           "id": "text",
           "label": "Text",
-          "default": "It is a ..."
-        }
-      ]
+          "default": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     }
   ],
+  "blocks": [],
   "presets": [
     {
       "name": "Banner call to buy"
