@@ -1,0 +1,401 @@
+{
+  "sections": {
+    "97ca6d55-ba76-4f9a-806b-767db158dfad": {
+      "type": "slideshow",
+      "disabled": true,
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/c79e624724dc030eaf46ac57edbee10b_6ad17f20-ce13-497d-946d-13dee15e462c.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "5213da22-3fa0-49ed-81cf-8adcfa60685a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19213439631708__5213da22-3fa0-49ed-81cf-8adcfa60685a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Worldwide Delivery in the Shortest Time!<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19213439631708__5213da22-3fa0-49ed-81cf-8adcfa60685a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We highly prioritize ensuring you receive your order as quickly as possible. Our company collaborates closely with international carriers. We have made every effort to ensure that delivery to your doorstep takes as little time as possible. Receive your ArhiMED device in just 7-21 days anywhere in the world<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19213439631708__5213da22-3fa0-49ed-81cf-8adcfa60685a-heading-1",
+        "template--19213439631708__5213da22-3fa0-49ed-81cf-8adcfa60685a-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "07f4186f-ce78-4677-8d57-c561e262ce66": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19213439631708__07f4186f-ce78-4677-8d57-c561e262ce66-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/favic3.svg",
+            "title": "<strong>Aspirators<\/strong>",
+            "text": "<p>baby aspirators<\/p>",
+            "link_label": "shop now",
+            "link": "https:\/\/arhimed.org\/products\/ultrasonic-face-scrubber-arhimed-pureglide-s7"
+          }
+        },
+        "template--19213439631708__07f4186f-ce78-4677-8d57-c561e262ce66-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/favic3.svg",
+            "title": "<strong>Inhalers <\/strong>",
+            "text": "<p>test<\/p>",
+            "link_label": "",
+            "link": "https:\/\/arhimed.org\/products\/ultrasonic-face-scrubber-arhimed-pureglide-s7"
+          }
+        },
+        "template--19213439631708__07f4186f-ce78-4677-8d57-c561e262ce66-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/favic3.svg",
+            "title": "<strong>Scrubbers<\/strong>",
+            "text": "<p>test<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/products\/ultrasonic-face-scrubber-arhimed-pureglide-s7"
+          }
+        },
+        "02d0f368-2396-4185-b3ac-15797706acb3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/favic3.svg",
+            "title": "<strong>Thermometers <\/strong>",
+            "text": "<p>test<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/products\/ultrasonic-face-scrubber-arhimed-pureglide-s7"
+          }
+        },
+        "9c982abe-be13-40f2-91b8-093e2dd6afe2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/favic3.svg",
+            "title": "<strong>Photoepilators <\/strong>",
+            "text": "<p>test<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/products\/ultrasonic-face-scrubber-arhimed-pureglide-s7"
+          }
+        }
+      },
+      "block_order": [
+        "template--19213439631708__07f4186f-ce78-4677-8d57-c561e262ce66-column-1",
+        "template--19213439631708__07f4186f-ce78-4677-8d57-c561e262ce66-column-2",
+        "template--19213439631708__07f4186f-ce78-4677-8d57-c561e262ce66-column-3",
+        "02d0f368-2396-4185-b3ac-15797706acb3",
+        "9c982abe-be13-40f2-91b8-093e2dd6afe2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>HOT SALE: SAVE UP TO “70%”<\/strong>",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ff26427f-1357-4e9f-8f43-1950919d49b7": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19213439631708__ff26427f-1357-4e9f-8f43-1950919d49b7-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Each device is born with care in Ukraine. Designed by experts, with your well-being in mind",
+            "text": "<p>Reliable. Functional. User-friendly and straightforward. Stylish and elegant – that’s the essence of every ArhiMED device. At our company, we wholeheartedly believe that anything created with love and consideration contributes to a better world. This very principle is at the core of every ArhiMED product<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19213439631708__ff26427f-1357-4e9f-8f43-1950919d49b7-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Impeccable Quality in Every ArhiMED Product",
+            "text": "<p>We prioritize ensuring that you receive a flawless product. The ArhiMED company's Quality Control Department meticulously oversees every stage of production. Each ArhiMED device undergoes additional checks before being dispatched to you. We guarantee 100% quality in every device<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "aa8efc9f-0850-43c2-938f-968eb3fd9c93": {
+          "type": "column",
+          "settings": {
+            "title": "Experience 100% Satisfaction with ArhiMED",
+            "text": "<p>In the creation of each ArhiMED product, we've taken care of every detail. We are confident that your new ArhiMED device will meet all your needs precisely<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "ae5432d7-4cf3-441e-bf11-9464d00d81a6": {
+          "type": "column",
+          "settings": {
+            "title": "Up to 3-Year Warranty on All Products",
+            "text": "<p>We are confident that the ArhiMED device, created with love, will serve you for many years to come! Our extended warranty on all ArhiMED products is our testament to their impeccable quality<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "10abf7e9-dc22-4088-b588-485158782caf": {
+          "type": "column",
+          "settings": {
+            "title": "International and European Certifications",
+            "text": "<p>We take pride in the fact that every ArhiMED product is certified<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19213439631708__ff26427f-1357-4e9f-8f43-1950919d49b7-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "24\/7 Customer and Technical Support",
+            "text": "<p>ArhiMED products are incredibly user-friendly. Nevertheless, we're always here for you! Feel free to ask us any questions about ArhiMED products. We're available 24\/7 to assist you<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "32f4c897-3a2c-436a-a23c-8356a88cb688": {
+          "type": "column",
+          "settings": {
+            "title": "100% Money-Back Guarantee",
+            "text": "<p>Each ArhiMED device is meticulously crafted with care and love. We have complete confidence in the flawless quality of ArhiMED. However, our primary concern is you - our valued customer. If you're not completely satisfied for any reason, we will refund your purchase<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19213439631708__ff26427f-1357-4e9f-8f43-1950919d49b7-column-1",
+        "template--19213439631708__ff26427f-1357-4e9f-8f43-1950919d49b7-column-2",
+        "aa8efc9f-0850-43c2-938f-968eb3fd9c93",
+        "ae5432d7-4cf3-441e-bf11-9464d00d81a6",
+        "10abf7e9-dc22-4088-b588-485158782caf",
+        "template--19213439631708__ff26427f-1357-4e9f-8f43-1950919d49b7-column-3",
+        "32f4c897-3a2c-436a-a23c-8356a88cb688"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "<strong>ArhiMED - MED & Beauty devices with a touch of soul<\/strong>",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ebdc30a8-a45b-42ce-89ac-0e3cd9194f51": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19213439631708__ebdc30a8-a45b-42ce-89ac-0e3cd9194f51-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>ArhiMED - a Ukrainian company founded on the values of care and love.<\/strong>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--19213439631708__ebdc30a8-a45b-42ce-89ac-0e3cd9194f51-heading-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "fa2cd715-181e-4973-943f-3400e5380635": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19213439631708__fa2cd715-181e-4973-943f-3400e5380635-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Artem Alekseev <\/strong>ArhiMED CEO",
+            "heading_size": "h2"
+          }
+        },
+        "template--19213439631708__fa2cd715-181e-4973-943f-3400e5380635-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>When founding ArhiMED, my vision was to contribute to a better world. I aimed to create something that would aid everyone in their daily lives, day by day, making life easier, healthier, more liberating, and comfortable. I wholeheartedly believe that by enhancing people's lives, we enhance the world. ArhiMED's products are crafted for the health, beauty, longevity, and well-being of every individual. Our commitment to these ideals forms the core of our company. We innovate for you, enhancing your quality of life<\/em><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19213439631708__fa2cd715-181e-4973-943f-3400e5380635-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More About ArhiMED",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19213439631708__fa2cd715-181e-4973-943f-3400e5380635-heading-1",
+        "template--19213439631708__fa2cd715-181e-4973-943f-3400e5380635-text-1",
+        "template--19213439631708__fa2cd715-181e-4973-943f-3400e5380635-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dollarphotoclub_64980674-700x466.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f2c89d54-9639-45b7-a492-2089a2d456d2": {
+      "type": "newsletter",
+      "blocks": {
+        "template--19213439631708__f2c89d54-9639-45b7-a492-2089a2d456d2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Unlock Savings of Up to 70%! <\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19213439631708__f2c89d54-9639-45b7-a492-2089a2d456d2-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Get Exclusive Deals by Subscribing Now!<\/strong><\/p>"
+          }
+        },
+        "template--19213439631708__f2c89d54-9639-45b7-a492-2089a2d456d2-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--19213439631708__f2c89d54-9639-45b7-a492-2089a2d456d2-heading-1",
+        "template--19213439631708__f2c89d54-9639-45b7-a492-2089a2d456d2-paragraph-1",
+        "template--19213439631708__f2c89d54-9639-45b7-a492-2089a2d456d2-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1695985452294ba70c": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "97ca6d55-ba76-4f9a-806b-767db158dfad",
+    "image_banner",
+    "5213da22-3fa0-49ed-81cf-8adcfa60685a",
+    "07f4186f-ce78-4677-8d57-c561e262ce66",
+    "featured_collection",
+    "ff26427f-1357-4e9f-8f43-1950919d49b7",
+    "ebdc30a8-a45b-42ce-89ac-0e3cd9194f51",
+    "fa2cd715-181e-4973-943f-3400e5380635",
+    "f2c89d54-9639-45b7-a492-2089a2d456d2",
+    "1695985452294ba70c"
+  ]
+}

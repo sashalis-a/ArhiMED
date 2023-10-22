@@ -1,0 +1,259 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "af8843b7-46ae-437f-9373-7e8295b1696a": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style = \"height: 30px; width: auto;  color: #e0103a; padding: 0px 0px; font-weight: 500; gap: 1rem; border: 1px; border-color: black; border-radius: 10px;\" ><img src  = \"https:\/\/ir.ebaystatic.com\/rs\/v\/tnj4p1myre1mpff12w4j1llndmc.png\">\n18 bought in the last 24 hours\n<\/div>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "ec0b6397-acd0-461a-8d62-4e004249a46b": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": false
+          }
+        },
+        "75b2a44d-a6aa-44ca-8387-12cb4450ba5d": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style = \"margin-left: 6px;    font-weight: 600;\n    display: inline-flex;\n    background-color: #e7f4ffad;\n    padding: 0.3em 1em;\n    color: #221f1f;\n    border-radius: 10px;\n    gap: 1rem;\n    margin-bottom: -5px;\n    margin-top: -10px;\"><svg class=\"icon icon-accordion color-foreground-text\" aria-hidden=\"true\" focusable=\"false\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"15\" height=\"15\" style = \"margin: auto;\" viewBox=\"0 0 20 20\"><path d=\"M0 3.75156C0 3.47454 0.224196 3.24997 0.500755 3.24997H10.647C10.9235 3.24997 11.1477 3.47454 11.1477 3.75156V5.07505V5.63362V6.10938V13.6616C10.9427 14.0067 10.8813 14.1101 10.5516 14.6648L7.22339 14.6646V13.6614H10.1462V4.25316H1.00151V13.6614H2.6842V14.6646H0.500755C0.224196 14.6646 0 14.44 0 14.163V3.75156Z\"><\/path>\n      <path d=\"M18.9985 8.08376L11.1477 6.10938V5.07505L19.6212 7.20603C19.8439 7.26203 20 7.46255 20 7.69253V14.1631C20 14.4401 19.7758 14.6647 19.4992 14.6647H17.3071V13.6615H18.9985V8.08376ZM11.1477 13.6616L13.3442 13.6615L13.3443 14.6647L10.5516 14.6648L11.1477 13.6616Z\"><\/path>\n      <path d=\"M7.71269 14.1854C7.71269 15.6018 6.56643 16.75 5.15245 16.75C3.73847 16.75 2.59221 15.6018 2.59221 14.1854C2.59221 12.7691 3.73847 11.6209 5.15245 11.6209C6.56643 11.6209 7.71269 12.7691 7.71269 14.1854ZM5.15245 15.7468C6.01331 15.7468 6.71118 15.0478 6.71118 14.1854C6.71118 13.3231 6.01331 12.6241 5.15245 12.6241C4.29159 12.6241 3.59372 13.3231 3.59372 14.1854C3.59372 15.0478 4.29159 15.7468 5.15245 15.7468Z\"><\/path>\n      <path d=\"M17.5196 14.1854C17.5196 15.6018 16.3733 16.75 14.9593 16.75C13.5454 16.75 12.3991 15.6018 12.3991 14.1854C12.3991 12.7691 13.5454 11.6209 14.9593 11.6209C16.3733 11.6209 17.5196 12.7691 17.5196 14.1854ZM14.9593 15.7468C15.8202 15.7468 16.5181 15.0478 16.5181 14.1854C16.5181 13.3231 15.8202 12.6241 14.9593 12.6241C14.0985 12.6241 13.4006 13.3231 13.4006 14.1854C13.4006 15.0478 14.0985 15.7468 14.9593 15.7468Z\"><\/path><\/svg>Free shipping<\/div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "cfc98edc-80f3-4c63-9e36-ed62198afa35": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style = \"display: grid;\n    gap: 1em;\">Secure checkout with\n<img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0761\/7943\/9962\/files\/secure-payment.svg?v=1687877095\">\n<\/div>"
+          }
+        },
+        "052121a2-f903-4c46-95c1-40cbcda4b84b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Free Worldwide Delivery in the Shortest Time",
+            "icon": "truck",
+            "content": "<p>Shipping cost: <strong>Free<\/strong><br\/><br\/>We highly prioritize ensuring you receive your order as quickly as possible. Our company collaborates closely with international carriers. We have made every effort to ensure that delivery to your doorstep takes as little time as possible. Receive your <strong>ArhiMED <\/strong>device in just <strong>7-21 days anywhere in the world.<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "98561621-2ada-4de4-8a2b-293806642c93": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "100% Money-Back Guarantee",
+            "icon": "return",
+            "content": "<p>Each <strong>ArhiMED <\/strong>device is meticulously crafted with care and love ❤️<br\/>We have complete confidence in the flawless quality of <strong>ArhiMED<\/strong>. However, our primary concern is you - our valued customer. If you're not completely satisfied for any reason, <strong>we will refund your purchase.<\/strong><\/p><p><a href=\"https:\/\/arhimed.org\/policies\/refund-policy\" title=\"https:\/\/arhimed.org\/policies\/refund-policy\"><strong>Refund policy (link)<\/strong><\/a><\/p>",
+            "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "af8843b7-46ae-437f-9373-7e8295b1696a",
+        "price",
+        "ec0b6397-acd0-461a-8d62-4e004249a46b",
+        "75b2a44d-a6aa-44ca-8387-12cb4450ba5d",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "cfc98edc-80f3-4c63-9e36-ed62198afa35",
+        "052121a2-f903-4c46-95c1-40cbcda4b84b",
+        "98561621-2ada-4de4-8a2b-293806642c93",
+        "description"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_size": "large",
+        "constrain_to_viewport": false,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "1688564624da96dda8": {
+      "type": "apps",
+      "blocks": {
+        "d82352ad-7be8-46d1-bbab-d3c37516bb5e": {
+          "type": "shopify:\/\/apps\/yanet-professional-faq-page\/blocks\/app-block\/b70c1465-6820-4911-8d5d-2299efd66134",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d82352ad-7be8-46d1-bbab-d3c37516bb5e"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16876735252df5481b": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1687885802cb1d7941": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "aadb2e98-8b08-430b-8cf2-ab7031d0811f": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19213439828316__aadb2e98-8b08-430b-8cf2-ab7031d0811f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>ArhiMED - a Ukrainian company founded on the values of care and love.<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "template--19213439828316__aadb2e98-8b08-430b-8cf2-ab7031d0811f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>When founding ArhiMED, my vision was to contribute to a better world. I aimed to create something that would aid everyone in their daily lives, day by day, making life easier, healthier, more liberating, and comfortable. I wholeheartedly believe that by enhancing people's lives, we enhance the world. ArhiMED's products are crafted for the health, beauty, longevity, and well-being of every individual. Our commitment to these ideals forms the core of our company. We innovate for you, enhancing your quality of life.<\/em><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--19213439828316__aadb2e98-8b08-430b-8cf2-ab7031d0811f-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More About ArhiMED",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19213439828316__aadb2e98-8b08-430b-8cf2-ab7031d0811f-heading-1",
+        "template--19213439828316__aadb2e98-8b08-430b-8cf2-ab7031d0811f-text-1",
+        "template--19213439828316__aadb2e98-8b08-430b-8cf2-ab7031d0811f-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dollarphotoclub_64980674-700x466.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0d494912-0ec2-49b5-9682-60de6a4e731a": {
+      "type": "newsletter",
+      "blocks": {
+        "template--19213439828316__0d494912-0ec2-49b5-9682-60de6a4e731a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Unlock Savings of Up to 70%! <\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19213439828316__0d494912-0ec2-49b5-9682-60de6a4e731a-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Get Exclusive Deals by Subscribing Now!<\/strong><\/p>"
+          }
+        },
+        "template--19213439828316__0d494912-0ec2-49b5-9682-60de6a4e731a-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--19213439828316__0d494912-0ec2-49b5-9682-60de6a4e731a-heading-1",
+        "template--19213439828316__0d494912-0ec2-49b5-9682-60de6a4e731a-paragraph-1",
+        "template--19213439828316__0d494912-0ec2-49b5-9682-60de6a4e731a-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "1688564624da96dda8",
+    "16876735252df5481b",
+    "1687885802cb1d7941",
+    "aadb2e98-8b08-430b-8cf2-ab7031d0811f",
+    "0d494912-0ec2-49b5-9682-60de6a4e731a"
+  ]
+}

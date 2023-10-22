@@ -1,0 +1,54 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "220f9f10-7b53-4ce5-bd99-47dc7797d8e8": {
+          "type": "image",
+          "settings": {
+            "image_width": 80,
+            "alignment": ""
+          }
+        },
+        "ccd3b802-aa4f-4def-aab0-049473891061": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        },
+        "34cde66f-d13a-40e8-b8be-25a4892b76e7": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p><strong>ARHIMED SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ<\/strong><\/p><p>ul. GRZYBOWSKA, nr 87, Warszawa, 00-844<\/p><p>+48731912164<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "220f9f10-7b53-4ce5-bd99-47dc7797d8e8",
+        "ccd3b802-aa4f-4def-aab0-049473891061",
+        "34cde66f-d13a-40e8-b8be-25a4892b76e7"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 36,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

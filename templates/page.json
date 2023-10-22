@@ -1,0 +1,214 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "8be5754e-f311-4b0c-8239-cc669b61146b": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1a5d0b38f87dcc04a67df5770106329d.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "f059aa2c-bd54-4a24-98cc-21ce68241f59": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<p style=\"text-align: center;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0762\/3373\/6540\/files\/e7056a25504b8575065ad0a7a9a36ecf_5063f4c5-76f5-4277-af5f-bc38d5502969.jpg?v=1697139820\" width=\"900\" height=\"450\" alt=\"\" \/><\/p>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "caf7d9f6-4805-4e21-8c06-ab9132347331": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--19213439730012__caf7d9f6-4805-4e21-8c06-ab9132347331-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Each device is born with care in Ukraine. Designed by experts, with your well-being in mind<\/strong>",
+            "text": "<p>Reliable. Functional. User-friendly and straightforward. Stylish and elegant – that’s the essence of every ArhiMED device. At our company, we wholeheartedly believe that anything created with love and consideration contributes to a better world. This very principle is at the core of every ArhiMED product<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19213439730012__caf7d9f6-4805-4e21-8c06-ab9132347331-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Impeccable Quality in Every ArhiMED Product<\/strong>",
+            "text": "<p>We prioritize ensuring that you receive a flawless product. The ArhiMED company's Quality Control Department meticulously oversees every stage of production. Each ArhiMED device undergoes additional checks before being dispatched to you. We guarantee 100% quality in every device<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--19213439730012__caf7d9f6-4805-4e21-8c06-ab9132347331-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Experience 100% Satisfaction with ArhiMED<\/strong>",
+            "text": "<p>In the creation of each ArhiMED product, we've taken care of every detail. We are confident that your new ArhiMED device will meet all your needs precisely<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19213439730012__caf7d9f6-4805-4e21-8c06-ab9132347331-column-1",
+        "template--19213439730012__caf7d9f6-4805-4e21-8c06-ab9132347331-column-2",
+        "template--19213439730012__caf7d9f6-4805-4e21-8c06-ab9132347331-column-3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ace51062-01f6-46e8-9960-406fecf97088": {
+      "type": "multicolumn",
+      "blocks": {
+        "f26c716b-2f0b-42d1-8d10-6ad373bfa29b": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Up to 3-Year Warranty on All Products<\/strong>",
+            "text": "<p>We are confident that the ArhiMED device, created with love, will serve you for many years to come! Our extended warranty on all ArhiMED products is our testament to their impeccable quality<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "c8f5efb5-2e2b-4fde-a747-6c6e5c371f0d": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>International and European Certifications<\/strong>",
+            "text": "<p>We take pride in the fact that every ArhiMED product is certified<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d00d8be7-2310-45cb-86ca-9531dd69149d": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>24\/7 Customer and Technical Support<\/strong>",
+            "text": "<p>ArhiMED products are incredibly user-friendly. Nevertheless, we're always here for you! Feel free to ask us any questions about ArhiMED products. We're available 24\/7 to assist you<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f26c716b-2f0b-42d1-8d10-6ad373bfa29b",
+        "c8f5efb5-2e2b-4fde-a747-6c6e5c371f0d",
+        "d00d8be7-2310-45cb-86ca-9531dd69149d"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "14cda0c9-84c3-4025-95e1-8f33aecf5fc2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19213439730012__14cda0c9-84c3-4025-95e1-8f33aecf5fc2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ArhiMED - a young company founded in 2012 in Kyiv, swiftly conquered the Ukrainian market in just a few years.<\/strong><\/p><p><strong>In 2019, Arhimed earned the title of \"brand №1\" among producers of medical and beauty devices in Ukraine. By 2023, over 350,000 families worldwide are benefiting from Arhimed devices<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19213439730012__14cda0c9-84c3-4025-95e1-8f33aecf5fc2-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "848dffd9-1125-41c2-8c41-ad954234ddfd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19213439730012__848dffd9-1125-41c2-8c41-ad954234ddfd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Did you know that<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--19213439730012__848dffd9-1125-41c2-8c41-ad954234ddfd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🏆Every device created by ArhiMED, upon entering the market, had no analogs and was unique. Only later did other companies in Ukraine begin to produce products similar to ArhiMED.<\/p><p>🥇ArhiMED was the first manufacturer of contactless thermometers, which quickly became №1 in Ukraine and were actively used during the coronavirus epidemic. During the COVID-19 times, the ArhiMED team and our volunteers actively participated in preventing the epidemic.<\/p><p>👩‍👧‍👧For four consecutive years, ArhiMED's children's nasal aspirators have been №1 in Ukraine (according to surveys and purchase statistics in the Ukrainian market).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19213439730012__848dffd9-1125-41c2-8c41-ad954234ddfd-heading-1",
+        "template--19213439730012__848dffd9-1125-41c2-8c41-ad954234ddfd-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "5ad7ce13-fc83-4633-be7e-1a4f5d9e8791": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<p><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0762\/3373\/6540\/files\/2cd3851d32fbfc68a5833d37b114a26e.jpg?v=1697141475\" width=\"900\" height=\"508\" alt=\"\" style=\"display: block; margin-left: auto; margin-right: auto;\" \/><\/p>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "8be5754e-f311-4b0c-8239-cc669b61146b",
+    "f059aa2c-bd54-4a24-98cc-21ce68241f59",
+    "caf7d9f6-4805-4e21-8c06-ab9132347331",
+    "ace51062-01f6-46e8-9960-406fecf97088",
+    "14cda0c9-84c3-4025-95e1-8f33aecf5fc2",
+    "848dffd9-1125-41c2-8c41-ad954234ddfd",
+    "5ad7ce13-fc83-4633-be7e-1a4f5d9e8791"
+  ]
+}

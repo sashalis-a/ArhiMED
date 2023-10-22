@@ -1,0 +1,52 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "custom_css": [
+        ".gradient {background-color: black;}",
+        ".list-menu__item {color: white;}",
+        ".header__icon {color: white;}",
+        ".header__active-menu-item {color: white;}"
+      ],
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "accent-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "left",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "GET 51% OFF ONLY TODAY + FREE SHIPPING!",
+            "text_alignment": "center",
+            "color_scheme": "accent-2",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "header",
+    "announcement-bar"
+  ]
+}
