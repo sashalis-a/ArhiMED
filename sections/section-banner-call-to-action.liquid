@@ -1,14 +1,14 @@
 <div class="banner">
   <div class="page-width banner_container">
-    <img class="banner_img" src="https://cdn.shopify.com/s/files/1/0762/3373/6540/files/black_logo.png?v=1698093274" alt="logo">
-    <h2 class="banner_title"> {{ section.settings.title }} </h2>
-    <p class="banner_text">{{ section.settings.text }}</p>
+    <img class="banner_img" src="//61c8c4.myshopify.com/cdn/shop/files/6.png?v=1695305139&width=600" alt="logo">
+    <h2 class="banner_title text-center"> {{ section.settings.title }} </h2>
+    <p class="banner_text text-center">{{ section.settings.text }}</p>
     <a class="banner_button-redirect button button--secondary" href="/collections/all"><p>{{ section.settings.textBtn }}</p></a>
   </div>
 </div>
 
 <style>
- 
+
   .banner {
     background: url("https://cdn.shopify.com/s/files/1/0762/3373/6540/files/small-resolution-background.jpg") center/cover no-repeat;
     padding-top: 50px;
@@ -18,10 +18,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    padding: 0 1.5rem;
   }
   
   .banner_img {
-    width: 200px;
+    background-color: black;
+  }
+
+  .text-center {
+    text-align: center;
   }
 
   .banner_text {
@@ -69,12 +75,6 @@
           "id": "textBtn",
           "label": "Button text",
           "default": "Explore ARHIMED Products"
-    },
-    {
-      "type": "text",
-      "id": "urlImg",
-      "label": "Background img",
-      "default": "https://th.bing.com/th/id/OIP.TKIJ5muZyGUvmWCDGTzMdgHaFS?w=137&h=98&c=7&r=0&o=5&pid=1.7"
     }
   ],
   "blocks": [],

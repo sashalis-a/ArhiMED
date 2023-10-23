@@ -1,15 +1,16 @@
 <div class="banner">
   <div class="page-width banner_container">
-    <h2 class="banner_title">{{ section.settings.title }}</h2>
+    <h2 class="banner_title text-center">{{ section.settings.title }}</h2>
     <div class="banner_wrapper">
       <div class="img_wrapper">
-        <img class="banner_img" src="https://www.bing.com/images/search?view=detailV2&ccid=7UF9v%2fZN&id=77C94399974D90165F3AA5233671936BB690F521&thid=OIP.7UF9v_ZNWt_zdJ8xDSCTCwHaE7&mediaurl=https%3a%2f%2fpersonalexcellence.co%2ffiles%2fceo.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ed417dbff64d5adff3749f310d20930b%3frik%3dIfWQtmuTcTYjpQ%26pid%3dImgRaw%26r%3d0&exph=533&expw=800&q=ceo&simid=608002915384318687&FORM=IRPRST&ck=E1F660EFCD42F7C18470962082C7A0A7&selectedIndex=2" alt="logo">
-        <h2 class="boss_name"><strong>Artem Alekseev</strong></h2>
-        <h2>ARHIMED CEO</h2>
+        <div class="banner_img-block">
+          <img class="banner_img" src="https://th.bing.com/th/id/OIP.oCZt9i6ILm3HJWQp2YKjSwHaE8?w=140&h=93&c=7&r=0&o=5&pid=1.7" alt="logo">
+        </div>
+        <h2 class="boss_name zero-margin"><strong>Artem Alekseev</strong></h2>
+        <h3 class="zero-margin">ARHIMED CEO</h2>
       </div>
       <div class="text_wrapper">
-        <p class="banner_text">{{ section.settings.text }}</p>
-        <a class="banner_button-redirect button button--secondary" href="/collections/all"><p>{{ section.settings.textBtn }}</p></a>
+        <p class="banner_text text-center">{{ section.settings.text }}</p>
       </div>
     </div>
   </div>
@@ -20,22 +21,49 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+
+    padding: 0 3rem;
+  }
+
+  .text-center {
+    text-align: center;
   }
 
   .img_wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .text_wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   
+  .banner_img-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+  }
+
   .banner_img {
-    background-color: black;
+    /* width: 100%; */
+    height: 100%;
+    /* object-fit: contain; */
+  }
+
+  .zero-margin {
+    margin: 0;
   }
 
   .banner_text {
@@ -60,7 +88,7 @@
 
 {% schema %}
 {
-  "name": "Banner call to action",
+  "name": "Banner about company",
   "tag": "section",
   "class": "section",
   "settings": [
@@ -75,24 +103,12 @@
           "id": "text",
           "label": "Banner text",
           "default": "Crafted with love and care in Ukraine using ArhiMED TM innovation technologies to make the world better and your life easier."
-    },
-    {
-          "type": "text",
-          "id": "textBtn",
-          "label": "Button text",
-          "default": "Explore ARHIMED Products"
-    },
-    {
-      "type": "text",
-      "id": "urlImg",
-      "label": "Background img",
-      "default": "https://th.bing.com/th/id/OIP.TKIJ5muZyGUvmWCDGTzMdgHaFS?w=137&h=98&c=7&r=0&o=5&pid=1.7"
     }
   ],
   "blocks": [],
   "presets": [
     {
-      "name": "Banner call to action"
+      "name": "Banner about company"
     }
   ]
 }

@@ -28,13 +28,21 @@
     "353cfa7b-273c-4633-ade7-09b8a6595f6d": {
       "type": "section-banner-call-to-action",
       "settings": {
-        "title": "Lorem Ipsum is simply dummy text of",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "title": "<strong>Next generation<\/strong> MED & Beauty devices",
+        "text": "Created for your health wellness and beauty Crafted with love and care in Ukraine using «ArhiMED™ Innovation technologies» to make the world better and your life easier.",
         "textBtn": "Explore ARHIMED Products"
+      }
+    },
+    "bab7db9f-38bd-4c70-bf9b-4632ca00230d": {
+      "type": "section-banner-about-company",
+      "settings": {
+        "title": "ArhiMED - a Ukrainian company founded on the values of care and love.",
+        "text": "When founding ArhiMED, my vision was to contribute to a better world. I aimed to create something that would aid everyone in their daily lives, day by day, making life easier,healthier, more liberating, and comfortable. I wholeheartedly believe that by enhancing people's lives, we enhance the world. ArhiMED's products are crafted for the health, beauty, longevity, and well-being of every individual. Our commitment to these ideals forms the core of our company.We innovate for you, enhancing your quality of life."
       }
     },
     "f059aa2c-bd54-4a24-98cc-21ce68241f59": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<p style=\"text-align: center;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0762\/3373\/6540\/files\/e7056a25504b8575065ad0a7a9a36ecf_5063f4c5-76f5-4277-af5f-bc38d5502969.jpg?v=1697139820\" width=\"900\" height=\"450\" alt=\"\" \/><\/p>",
         "color_scheme": "background-1",
@@ -71,12 +79,42 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "69c661ad-9791-4c62-b0ef-5e7b58827491": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Up to 3-Year Warranty on All Products<\/strong>",
+            "text": "<p>We are confident that the ArhiMED device, created with love, will serve you for many years to come! Our extended warranty on all ArhiMED products is our testament to their impeccable quality<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a96cd2cb-2d06-4e2b-887f-f5f11dd1665b": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>International and European Certifications<\/strong>",
+            "text": "<p>We take pride in the fact that every ArhiMED product is certified<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "458bff62-8643-403b-b7e3-78ff55927f1b": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>24\/7 Customer and Technical Support<\/strong>",
+            "text": "<p>ArhiMED products are incredibly user-friendly. Nevertheless, we're always here for you! Feel free to ask us any questions about ArhiMED products. We're available 24\/7 to assist you<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "template--19213439730012__caf7d9f6-4805-4e21-8c06-ab9132347331-column-1",
         "template--19213439730012__caf7d9f6-4805-4e21-8c06-ab9132347331-column-2",
-        "template--19213439730012__caf7d9f6-4805-4e21-8c06-ab9132347331-column-3"
+        "template--19213439730012__caf7d9f6-4805-4e21-8c06-ab9132347331-column-3",
+        "69c661ad-9791-4c62-b0ef-5e7b58827491",
+        "a96cd2cb-2d06-4e2b-887f-f5f11dd1665b",
+        "458bff62-8643-403b-b7e3-78ff55927f1b"
       ],
       "settings": {
         "title": "",
@@ -131,6 +169,7 @@
         "c8f5efb5-2e2b-4fde-a747-6c6e5c371f0d",
         "d00d8be7-2310-45cb-86ca-9531dd69149d"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -209,17 +248,27 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "888552ae-fc24-423f-ac0c-80930b036844": {
+      "type": "section-banner-call-to-action",
+      "settings": {
+        "title": "<strong>Next generation<\/strong> MED and Beauty devices",
+        "text": "Crafted with love and care in Ukraine using «ArhiMED™ Innovation technologies» to make the world better and your life easier.",
+        "textBtn": "Explore ARHIMED Products"
+      }
     }
   },
   "order": [
     "main",
     "8be5754e-f311-4b0c-8239-cc669b61146b",
     "353cfa7b-273c-4633-ade7-09b8a6595f6d",
+    "bab7db9f-38bd-4c70-bf9b-4632ca00230d",
     "f059aa2c-bd54-4a24-98cc-21ce68241f59",
     "caf7d9f6-4805-4e21-8c06-ab9132347331",
     "ace51062-01f6-46e8-9960-406fecf97088",
     "14cda0c9-84c3-4025-95e1-8f33aecf5fc2",
     "848dffd9-1125-41c2-8c41-ad954234ddfd",
-    "5ad7ce13-fc83-4633-be7e-1a4f5d9e8791"
+    "5ad7ce13-fc83-4633-be7e-1a4f5d9e8791",
+    "888552ae-fc24-423f-ac0c-80930b036844"
   ]
 }
