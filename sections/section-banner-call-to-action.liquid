@@ -1,6 +1,6 @@
 <div class="banner">
   <div class="page-width banner_container">
-    <img class="banner_img" src="//61c8c4.myshopify.com/cdn/shop/files/6.png?v=1695305139&width=600" alt="logo">
+    <img class="banner_img" src="https://cdn.shopify.com/s/files/1/0762/3373/6540/files/black_logo.png?v=1698093274" alt="logo">
     <h2 class="banner_title text-center"> {{ section.settings.title }} </h2>
     <p class="banner_text text-center">{{ section.settings.text }}</p>
     <a class="banner_button-redirect button button--secondary" href="/collections/all"><p>{{ section.settings.textBtn }}</p></a>
@@ -23,7 +23,8 @@
   }
   
   .banner_img {
-    background-color: black;
+    width: 250px;
+    margin-bottom: 10px;
   }
 
   .text-center {
@@ -40,15 +41,21 @@
   .banner_text::before {
     content: "";
     background: url("https://cdn.shopify.com/s/files/1/0762/3373/6540/files/quotes.svg?v=1698007970") center/cover no-repeat;
+    transform: rotate(180deg);
     
     width: 40px;
     height: 30px;
     
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -10px;
+    left: 15px;
   }
 
+  @media only screen and (min-width: 750px) {
+    .banner_img {
+      width: 300px;
+    }
+  }
 
 </style>
 
