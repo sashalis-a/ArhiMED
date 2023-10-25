@@ -1,17 +1,50 @@
 {% if section.blocks.size > 0 %}<div class="facts-list">
   <div class="page-width facts-list_container">
     <div class="fact-list_title-wrapper">
-      <div class="fact-list_heading"></div>
+      <h2 class="fact-list_heading">Did you know that</h2>
     </div>
-    {% for block in section.blocks %}
-      <div class="fact-item">
-        <img class="fact-img" src="{{ block.fact_img_url }}">
-        <p class="fact-text">{{ block.fact_text }}</p>
-      </div>
-    {% endfor %}
+    <div class="facts-wrapper">
+      {% for block in section.blocks %}
+        <div class="fact-item">
+          <img class="fact-img" src="{{ block.settings.fact_img_url }}">
+          <p class="fact-text">{{ block.settings.fact_text }}</p>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>
 {% endif %}
+
+<style>
+  .facts-list_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 3rem;
+  }
+
+  .facts-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    row-gap: 20px;
+  }
+
+  .fact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fact-img {
+    height: 70px;
+  }
+</style>
 
 {% schema %}
 {
