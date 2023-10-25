@@ -1,4 +1,4 @@
-<div class="banner">
+<div class="banner-call-to-action">
   <div class="page-width banner_container">
     <img class="banner_img" src="https://cdn.shopify.com/s/files/1/0762/3373/6540/files/black_logo.png?v=1698093274" alt="logo">
     <h2 class="banner_title text-center"> {{ section.settings.title }} </h2>
@@ -9,8 +9,8 @@
 
 <style>
 
-  .banner {
-    background: url("https://cdn.shopify.com/s/files/1/0762/3373/6540/files/small-resolution-background.jpg") center/cover no-repeat;
+  .banner-call-to-action {
+    /* background: url("https://cdn.shopify.com/s/files/1/0762/3373/6540/files/small-resolution-background.jpg") center/cover no-repeat; */
     padding-top: 50px;
   }
 
@@ -27,6 +27,38 @@
     margin-bottom: 10px;
   }
 
+  .banner_container {
+    position: relative;
+  }
+
+  /* img from left */
+  .banner-call-to-action .banner_title::before {
+    content: "";
+    background: url("https://cdn.shopify.com/s/files/1/0762/3373/6540/files/feathers_left_from_title.svg?v=1698263211") center/cover no-repeat;
+    
+    width: 125px;
+    height: 83px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  /* img from right */
+  .banner-call-to-action .banner_container::after {
+    content: "";
+    background: url("https://cdn.shopify.com/s/files/1/0762/3373/6540/files/bubbles_right_from_title.svg?v=1698263211") center/cover no-repeat;
+    
+    width: 150px;
+    height: 225px;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+
   .text-center {
     text-align: center;
   }
@@ -40,7 +72,7 @@
 
   .banner_text::before {
     content: "";
-    background: url("https://cdn.shopify.com/s/files/1/0762/3373/6540/files/quotes.svg?v=1698007970") center/cover no-repeat;
+    background: url("https://cdn.shopify.com/s/files/1/0762/3373/6540/files/quotes.svg?v=1698007970");
     transform: rotate(180deg);
     
     width: 40px;
@@ -49,6 +81,22 @@
     position: absolute;
     top: -10px;
     left: 15px;
+  }
+
+  .banner-call-to-action .banner_text::after {
+    content: "";
+    background: url("https://cdn.shopify.com/s/files/1/0762/3373/6540/files/flowers_under_from_title.svg?v=1698263212") center/cover no-repeat;
+    
+    width: 330px;
+    height: 135px;
+
+    /* width: 26vw;
+    height: 11vw; */
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
 
   @media only screen and (min-width: 750px) {
