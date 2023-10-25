@@ -252,9 +252,34 @@
     "888552ae-fc24-423f-ac0c-80930b036844": {
       "type": "section-banner-call-to-action",
       "settings": {
-        "title": "<strong>Next generation<\/strong> MED and Beauty devices",
+        "title": "Next generation MED and Beauty devices",
         "text": "Crafted with love and care in Ukraine using «ArhiMED™ Innovation technologies» to make the world better and your life easier.",
         "textBtn": "Explore ARHIMED Products"
+      }
+    },
+    "bf4f0fee-a26e-4d21-bf83-da7f75c6e25c": {
+      "type": "section-list-of-facts",
+      "blocks": {
+        "2f34d487-3bf9-4545-b1c3-ea75ddd6b84c": {
+          "type": "text",
+          "settings": {
+            "fact_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0762\/3373\/6540\/files\/cup.svg?v=1698270178",
+            "fact_text": "lfvdjnvhb"
+          }
+        },
+        "3331049c-3f8f-49b3-ae0f-3ea81e1f0555": {
+          "type": "text",
+          "settings": {
+            "fact_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0762\/3373\/6540\/files\/hands-with-first-place.svg?v=1698270177",
+            "fact_text": "fregsregrted"
+          }
+        }
+      },
+      "block_order": [
+        "2f34d487-3bf9-4545-b1c3-ea75ddd6b84c",
+        "3331049c-3f8f-49b3-ae0f-3ea81e1f0555"
+      ],
+      "settings": {
       }
     }
   },
@@ -269,6 +294,7 @@
     "14cda0c9-84c3-4025-95e1-8f33aecf5fc2",
     "848dffd9-1125-41c2-8c41-ad954234ddfd",
     "5ad7ce13-fc83-4633-be7e-1a4f5d9e8791",
-    "888552ae-fc24-423f-ac0c-80930b036844"
+    "888552ae-fc24-423f-ac0c-80930b036844",
+    "bf4f0fee-a26e-4d21-bf83-da7f75c6e25c"
   ]
 }
