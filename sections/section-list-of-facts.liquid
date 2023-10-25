@@ -1,0 +1,47 @@
+{% if section.blocks.size > 0 %}<div class="facts-list">
+  <div class="page-width facts-list_container">
+    <div class="fact-list_title-wrapper">
+      <div class="fact-list_heading"></div>
+    </div>
+    {% for block in section.blocks %}
+      <div class="fact-item">
+        <img class="fact-img" src="{{ block.fact_img_url }}">
+        <p class="fact-text">{{ block.fact_text }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "List of facts",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+  ],
+  "blocks": [
+    {
+      "name": "fact",
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "fact_img_url",
+          "label": "Fact Image URL" 
+        },
+        {
+          "type": "text",
+          "id": "fact_text",
+          "label": "Fact text" 
+        }
+      ] 
+    }
+  ],
+  "presets": [
+    {
+      "name": "List of facts"
+    }
+  ]
+}
+{% endschema %}
