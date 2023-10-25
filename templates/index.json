@@ -82,51 +82,46 @@
         "template--19213439631708__07f4186f-ce78-4677-8d57-c561e262ce66-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/favic3.svg",
             "title": "<strong>Aspirators<\/strong>",
             "text": "<p>baby aspirators<\/p>",
             "link_label": "shop now",
-            "link": "https:\/\/arhimed.org\/products\/ultrasonic-face-scrubber-arhimed-pureglide-s7"
+            "link": "shopify:\/\/collections\/electronic-nasal-aspirators"
           }
         },
         "template--19213439631708__07f4186f-ce78-4677-8d57-c561e262ce66-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/favic3.svg",
             "title": "<strong>Inhalers <\/strong>",
             "text": "<p>test<\/p>",
-            "link_label": "",
-            "link": "https:\/\/arhimed.org\/products\/ultrasonic-face-scrubber-arhimed-pureglide-s7"
+            "link_label": "shop now",
+            "link": "shopify:\/\/collections\/portable-inhaler-nebulizer"
           }
         },
         "template--19213439631708__07f4186f-ce78-4677-8d57-c561e262ce66-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/favic3.svg",
             "title": "<strong>Scrubbers<\/strong>",
             "text": "<p>test<\/p>",
-            "link_label": "",
-            "link": "shopify:\/\/products\/ultrasonic-face-scrubber-arhimed-pureglide-s7"
+            "link_label": "shop now",
+            "link": "shopify:\/\/collections\/scrubber"
           }
         },
         "02d0f368-2396-4185-b3ac-15797706acb3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/favic3.svg",
             "title": "<strong>Thermometers <\/strong>",
             "text": "<p>test<\/p>",
-            "link_label": "",
-            "link": "shopify:\/\/products\/ultrasonic-face-scrubber-arhimed-pureglide-s7"
+            "link_label": "shop now",
+            "link": "shopify:\/\/collections\/thermometers"
           }
         },
         "9c982abe-be13-40f2-91b8-093e2dd6afe2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/favic3.svg",
             "title": "<strong>Photoepilators <\/strong>",
             "text": "<p>test<\/p>",
-            "link_label": "",
-            "link": "shopify:\/\/products\/ultrasonic-face-scrubber-arhimed-pureglide-s7"
+            "link_label": "shop now",
+            "link": "shopify:\/\/collections\/photo-epilators"
           }
         }
       },
@@ -163,8 +158,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
+        "products_to_show": 10,
+        "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "outline",
@@ -265,7 +260,7 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 1,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
