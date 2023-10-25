@@ -7,7 +7,7 @@
       {% for block in section.blocks %}
         <div class="fact-item">
           <img class="fact-img" src="{{ block.settings.fact_img_url }}">
-          <p class="fact-text">{{ block.settings.fact_text }}</p>
+          <p class="fact-text text-center">{{ block.settings.fact_text }}</p>
         </div>
       {% endfor %}
     </div>
@@ -43,6 +43,10 @@
   
   .fact-img {
     height: 70px;
+  }
+
+  .text-center {
+    text-align: center;
   }
 </style>
 

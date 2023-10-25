@@ -264,20 +264,28 @@
           "type": "text",
           "settings": {
             "fact_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0762\/3373\/6540\/files\/cup.svg?v=1698270178",
-            "fact_text": "lfvdjnvhb"
+            "fact_text": "Every device created by ArhiMED, upon entering the market, had no analogs and was unique. Only later did other companies in Ukraine begin to produce products similar to ArhiMED"
           }
         },
         "3331049c-3f8f-49b3-ae0f-3ea81e1f0555": {
           "type": "text",
           "settings": {
             "fact_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0762\/3373\/6540\/files\/hands-with-first-place.svg?v=1698270177",
-            "fact_text": "fregsregrted"
+            "fact_text": "ArhiMED was the first manufacturer of contactless thermometers, which quickly became Nº1 in Ukraine and were actively used during the coronavirus epidemic. During the COVID-19 times, the ArhiMED team and our volunteers activelyparticipated in preventing the epidemic"
+          }
+        },
+        "69e1492a-860c-45f6-9ec3-dd223953b5e4": {
+          "type": "text",
+          "settings": {
+            "fact_img_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0762\/3373\/6540\/files\/first-place-medal.svg?v=1698270177",
+            "fact_text": "For four consecutive years, ArhiMED's children's nasal aspirators have been Nº1 in Ukraine (according to surveys and purchase statistics in the Ukrainian market)"
           }
         }
       },
       "block_order": [
         "2f34d487-3bf9-4545-b1c3-ea75ddd6b84c",
-        "3331049c-3f8f-49b3-ae0f-3ea81e1f0555"
+        "3331049c-3f8f-49b3-ae0f-3ea81e1f0555",
+        "69e1492a-860c-45f6-9ec3-dd223953b5e4"
       ],
       "settings": {
       }
