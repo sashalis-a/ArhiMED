@@ -1,16 +1,12 @@
 {% if section.blocks.size > 0 %}<div class="facts-list">
   <div class="page-width facts-list_container">
     <div class="fact-list_title-wrapper">
-      <img class="question_mark small-mark" src="https://cdn.shopify.com/s/files/1/0762/3373/6540/files/question_mark.svg?v=1698270177">
-      <img class="question_mark big-mark" src="https://cdn.shopify.com/s/files/1/0762/3373/6540/files/question_mark.svg?v=1698270177">
-      <h2 class="fact-list_heading">Did you know that</h2>
-      <img class="big-mark" src="https://cdn.shopify.com/s/files/1/0762/3373/6540/files/question_mark.svg?v=1698270177">
-      <img class="small-mark" src="https://cdn.shopify.com/s/files/1/0762/3373/6540/files/question_mark.svg?v=1698270177">
+      <h2 class="fact-list_heading">{{ section.settings.title }}</h2>
     </div>
     <div class="facts-wrapper">
       {% for block in section.blocks %}
         <div class="fact-item">
-          <img class="fact-img" src="{{ block.settings.fact_img_url }}">
+          <h3 class="fact-title">{{ block.settings.fact_title }}</h3>
           <p class="fact-text text-center">{{ block.settings.fact_text }}</p>
         </div>
       {% endfor %}
@@ -27,28 +23,6 @@
     justify-content: center;
 
     padding: 0 3rem;
-  }
-
-  .fact-list_title-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    column-gap: 5px;
-  }
-
-  /* .question_mark {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-  } */
-
-  .small-mark {
-    width: 25px;
-  }
-
-  .big-mark {
-    width: 35px
   }
 
   .facts-wrapper {
@@ -78,10 +52,15 @@
 
 {% schema %}
 {
-  "name": "List of facts",
+  "name": "Column of facts",
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+    }
   ],
   "blocks": [
     {
@@ -90,8 +69,8 @@
       "settings": [
         {
           "type": "text",
-          "id": "fact_img_url",
-          "label": "Fact Image URL" 
+          "id": "fact_title",
+          "label": "Fact Title" 
         },
         {
           "type": "text",
@@ -103,7 +82,7 @@
   ],
   "presets": [
     {
-      "name": "List of facts"
+      "name": "Column of facts"
     }
   ]
 }

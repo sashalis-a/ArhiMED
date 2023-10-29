@@ -223,21 +223,11 @@
 
 /* font*/
 
-@font-face {
-    font-family: "coves light";
-    src: url(./coves_light.woff),
-        url(./coves_light.woff2);
-}
-
-@font-face {
-    font-family: "coves bold";
-    src: url(./coves_bold.woff),
-        url(./coves_bold.woff2);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
-  --font-body-family: "coves light", sans-serif;
-  --font-heading-family: "coves bold", sans-serif;
+  --font-body-family: 'Montserrat', sans-serif;
+  --font-heading-family: 'Montserrat', sans-serif;
   --font-sasad: 121px;
 }
 
